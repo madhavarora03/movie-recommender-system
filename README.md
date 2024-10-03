@@ -51,15 +51,15 @@ After combining the features, we applied the **Bag of Words (BoW)** technique to
 
 We used **Cosine Similarity** to measure the similarity between movie vectors. Cosine similarity is defined as:
 
-\[
+$$
 \text{Cosine Similarity} = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \|\mathbf{B}\|}
-\]
+$$
 
 Where:
 
-- \(\mathbf{A}\) and \(\mathbf{B}\) are the vector embeddings of two movies.
-- \( \cdot \) represents the dot product of the vectors.
-- \( \|\mathbf{A}\| \) and \( \|\mathbf{B}\| \) are the magnitudes of the vectors.
+- $\mathbf{A}$ and $\mathbf{B}$ are the vector embeddings of two movies.
+- The dot ($ \cdot $) represents the dot product of the vectors.
+- $ \|\mathbf{A}\| $ and $ \|\mathbf{B}\| $ are the magnitudes of the vectors.
 
 This similarity metric ranges from -1 (completely dissimilar) to 1 (perfectly similar). For this project, we used positive similarity values.
 
